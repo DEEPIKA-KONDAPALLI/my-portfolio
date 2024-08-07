@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Deepika Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">My Portfolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#home" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="home" class="home section dark-background">
+
+      <img src="https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg" alt="" data-aos="fade-in">
+
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>I am Deepika Kondapalli</h2>
+        <p><span class="typed" data-typed-items="MERN Stack Developer, Frontend Developer, Web Developer, Designer"></span></p>
+      </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container d-flex flex-row" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-md-12">
+
+            <div class="column justify-content-between gy-4">
+              <div class="col-lg-6">
+                <img src="assets/img/WhatsApp Image 2024-08-06 at 9.44.16 PM.jpeg" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-6 about-info">
+                <p><strong>Name: </strong> <span>Deepika Kondapalli</span></p>
+                <p><strong>Email: </strong> <span>kondapallideepika03@gmail.com</span></p>
+                <p><strong>Phone: </strong> <span>7989636507</span></p>
+              </div>
+            </div>
+
+            
+            </div>
+          </div>
+
+          <div class="col-md-12 m-5">
+            <div class="about-me">
+              <h4>About me</h4>
+              <p>I’m Deepika Kondapalli, a Computer Science Engineering student at Gandhi Institute of Technology and Management,<br/> Visakhapatnam. I’m currently pursuing an Industry Ready Certification in Full-stack Development from Nxtwave Disruptive <br/> Technologies.</p>
+
+                <p>I have strong skills in programming languages like Python, Java, and C, and I specialize in frontend development <br/>using HTML, CSS, Bootstrap, JavaScript, and React.js. I’m also experienced with backend frameworks like Express and Node.js,<br/> and I have worked with databases such as SQLite and MongoDB.</p>
+                
+                <p>I’ve completed several projects, including an eCommerce site clone, an emoji memory game, and a responsive food website.<br/> I’ve also gained real-world experience as a Web Developer at Intrainz and software developer at Bluestock Fintech.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+
+      <!-- Section Title -->
+      <div class="container-project">
+        <h1>My Projects</h1>
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('static')">Static</button>
+            <button class="tab-btn" onclick="showTab('responsive')">Responsive</button>
+            <button class="tab-btn" onclick="showTab('dynamic')">Dynamic</button>
+            
+        </div>
+        
+        <div class="content">
+            <div id="static" class="tab-content active">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/night.png" alt="Night Island">
+                            <h3>Music Page</h3>
+                            <p>The music page enables users to browse through images of all-time favorite music albums.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/tourism.png" alt="Tourism">
+                            <h3>Tourism Website</h3>
+                            <p>A tourism website enables the user to browse through images of popular destinations.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/vr.png" alt="Advanced Technologies">
+                            <h3>Advanced Technologies</h3>
+                            <p>A website that gives you a basic understanding of Advanced Technologies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="responsive" class="tab-content">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/vr2.png" alt="Responsive Design">
+                            <h3>VR Website</h3>
+                            <p>VR Website enables users to explore AR and VR Products and Industry happenings.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="assets/img/food munch.png" alt="Responsive Design">
+                        <h3>Food Munch</h3>
+                        <p>Food Much Website is a user-centric food tech website.</p>
+                    </div>
+                    </div>
+
+                    <!-- Add more columns as needed -->
+                </div>
+            </div>
+            
+            <div id="dynamic" class="tab-content">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/speed .png" alt="Dynamic Web">
+                            <h3>Speed Typing Test</h3>
+                            <p>Speed Typing Test Application is capable of calculating the time to type the randomly generated quote.</p>
+                        </div>
+                      </div>
+                        <div class="col">    
+                        <div class="card">
+                          <img src="assets/img/random.png" alt="Dynamic Web">
+                          <h3>Random Joke Page</h3>
+                          <p>Random Joke Page is an API-based dynamic Web Application that generates a new joke.</p>
+                      </div>
+                    </div>
+                      <div class="col">
+                      <div class="card">
+                        <img src="assets/img/size.png" alt="Dynamic Web">
+                        <h3>Sizing An Image</h3>
+                        <p>This is a dynamic web application capable of adjusting the size of an element using DOM manipulations.</p>
+                    </div>
+                  </div>
+                    <div class="col">
+                    <div class="card">
+                      <img src="assets/img/nxttrendz.png" alt="Dynamic Web">
+                      <h3>NxtTrendz </h3>
+                      <p>Nxt Trendz application which is a clone for ECommerce applications like Amazon, Flipkart using React JS, RESTAPIs, JWT Token</p>
+                  </div>
+                    </div>
+                    <div class="col">  
+                    <div class="card">
+                      <img src="assets/img/emoji game.png" alt="Dynamic Web">
+                      <h3>Emoji Game</h3>
+                      <p>This is a game designed by using React Js</p>
+                  </div>
+                    </div>
+                    <!-- Add more columns as needed -->
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <section id="skills">
+      <div class="container-project">
+          <h2>My Skills</h2>
+          <div class="skills-grid">
+              <div class="skill">
+                  <img src="https://img.icons8.com/color/48/000000/c-programming.png" alt="C Language">
+                  <p>C</p>
+              </div>
+              <div class="skill">
+                  <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java">
+                  <p>Java</p>
+              </div>
+              <div class="skill">
+                  <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript">
+                  <p>JavaScript</p>
+              </div>
+              <div class="skill">
+                  <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML">
+                  <p>HTML</p>
+              </div>
+              <div class="skill">
+                  <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS">
+                  <p>CSS</p>
+              </div>
+              <div class="skill">
+                  <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap">
+                  <p>Bootstrap</p>
+              </div>
+              <div class="skill">
+                  <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React.js">
+                  <p>React.js</p>
+              </div>
+              <div class="skill">
+                  <img src="https://img.icons8.com/ios-filled/50/000000/sql.png" alt="SQL">
+                  <p>SQLite</p>
+              </div>
+              <div class="skill">
+                  <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB">
+                  <p>MongoDB</p>
+              </div>
+              <div class="skill">
+                  <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git">
+                  <p>Git</p>
+              </div>
+              <div class="skill">
+                  <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub">
+                  <p>GitHub</p>
+              </div>
+              <div class="skill">
+                  <img src="https://img.icons8.com/color/48/000000/figma.png" alt="Figma">
+                  <p>Figma</p>
+              </div>
+              <div class="skill">
+                  <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js">
+                  <p>Node.js</p>
+              </div>
+              <div class="skill">
+                  <img src="https://img.icons8.com/color/48/000000/express.png" alt="Express">
+                  <p>Express.js</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>I'm excited to bring my skills and passion to innovative projects. I thrive on challenges and am eager to contribute my expertise to make a meaningful impact.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>putchala Street, Vizianagaram, Andhra Pradesh, 535001</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Contact Me</h3>
+                  <p>+91 7989636507</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Me</h3>
+                  <p>kondapallideepika03@gmail.com</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+        </div>
+
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">Send Message</button>
+            </div>
+
+          </div>
+        </form><!-- End Contact Form -->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">My Portfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/Deepika-Kondapalli3"><i class="bi bi-github"></i></a>
+        <a href="mailto:kondapallideepika03@gmail.com"><i class="bi bi-envelope"></i></a>
+        <a href="https://wa.me/7989636507"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/deepikakondapalli/"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        Designed by Deepika Kondapalli
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
